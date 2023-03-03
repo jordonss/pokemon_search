@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Pokemon</title>
+
+</head>
+<body>
+  <header>
+    
+    <div class="search">
+      <input type="text" id="pokeSearch" placeholder="Enter Name" onkeydown="return /[a-z]/i.test(event.key)">
+      <button class="searchBtn" id="pokeBtn">Search Pokemon</button>
+    </div>
+
+    <div class="pokeWrapper"></div>
+
+  </header>
+  <script src="script.js"></script>
+</body>
+</html>

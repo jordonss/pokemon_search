@@ -1,0 +1,62 @@
+body {
+  background-color: #013a7d;
+}
+
+button {
+  cursor: pointer;
+}
+
+h1, h2, p {
+  color: #fff;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 22px;
+}
+
+header {
+  width: 100%;
+  margin: 50px auto;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+#pokeSearch {
+  margin-right: 20px;
+  height: 30px;
+  font-size: 20px;
+}
+
+.searchBtn {
+  font-size: 20px;
+}
+
+.pokeWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pokeWrapper img {
+  margin-right: 20px;
+  width: 350px;
+}
+
+.pokeStats {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokeInfo {
+  display: flex;
+}
